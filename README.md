@@ -9,13 +9,17 @@ This project aims to predict employee retention using machine learning models. T
 - **Size**: 14,999 employees × multiple features
 
 ## Features
-The dataset includes the following employee metrics:
+The dataset includes the following features:
 - **satisfaction_level**: Job satisfaction rating
 - **time_spend_company**: Years spent at the company
 - **average_montly_hours**: Average monthly working hours
 - **promotion_last_5years**: Number of promotions in the last 5 years
 - **Department**: Employee's department
 - **salary**: Salary level (low, medium, high)
+- **last_evaluation**: Performance evaluation score
+- **number_project**: Number of projects the employee worked on
+- **Work_accident**: Whether the employee had a workplace accident (binary)
+- **left**: Target variable - whether the employee left (1) or stayed (0)
 
 ## Data Processing
 1. **Duplicate Removal**: Removed 3,008 duplicate records
